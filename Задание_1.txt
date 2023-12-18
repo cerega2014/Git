@@ -1,0 +1,20 @@
+2 - pwd
+3 - mkdir test1
+4 - cd test1
+5 - touch 1.txt 2.txt 3.txt
+6 - ls
+7 - cd ..
+8 - mkdir test2
+9 - rmdir test2
+10 - cd test1
+     rm 2.txt
+11 - mkdir test3
+     touch 1.txt 2.txt
+12 - rm -r test3
+13 - mkdir test4
+14 - mv test1/1.txt test1/3.txt test4	
+15 - echo line >> 1.txt; echo line >> 1.txt; echo line >> 1.txt
+16 - cat 1.txt
+17 - echo line >> 3.txt; echo line >> 3.txt; echo line >> 3.txt
+18 - cat 1.txt 3.txt
+19 - nano 1.txt
