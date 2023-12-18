@@ -1,0 +1,28 @@
+2 - mkdir test3
+3 - touch 4.txt 5.txt 6.txt
+    echo row1 >> 4.txt; echo row2 >> 4.txt; echo row3  >> 4.txt; echo row4 >> 4.txt
+    echo row1 >> 5.txt; echo row2 >> 5.txt; echo row3  >> 5.txt; echo row4 >> 5.txt
+    echo row1 >> 6.txt; echo row2 >> 6.txt; echo row3  >> 6.txt; echo row4 >> 6.txt
+4 - grep row2 5.txt
+5 - grep row *       если находимся в папке test3
+    grep row test3/*   если находимся в домашней директории
+6 - grep -c row test3/6.txt
+7 - find test3 -type f -name "5.txt"
+8 - find test3 -type f -name "5.txt" -exec rm {} \;
+9 - echo test >> 4.txt
+10 - sed -i 's/test/fail/g' 4.txt
+11 - echo test >> 4.txt    "не понял задание"
+12 - ps aux
+13 - kill 666
+14 - ping artsiomrusau.com
+15 - ping -c 5 ping artsiomrusau.com
+16 - curl https://petstore.swagger.io/v2/pet/findByStatus?status=available
+17 - curl -X POST -H "Content-Type: application/json" -d '{
+  "id": 345,
+  "username": "ivashka",
+  "firstName": "ivan",
+  "lastName": "ivanov",
+  "email": "test111@example.com",
+  "password": "123123",
+  "phone": "1234567890"
+}' https://petstore.swagger.io/v2/user
