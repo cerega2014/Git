@@ -1,1 +1,1 @@
-# practica
+# Задание Coreapp
